@@ -9,7 +9,7 @@
     list-style-type: none;
     text-align: center;
     box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.5);
-    background-color: rgba(128, 89, 39, 0.689);
+    background-color: #1d728f;
     border-radius: 6px;
     margin-top: 8px;
     padding-left: 15%;
@@ -27,15 +27,15 @@
 }
 
 #menu li a{
-    color: white;
+    color: #ccf2ff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 #menu a:hover{
-    color: blanchedalmond;
-    background-color: rgb(81, 54, 14);
+    color: #1d728f;
+    background-color: #ccf2ff;
 }
 
 #menu a:active{
@@ -48,7 +48,7 @@
 body{
     text-align: center;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/73/Grand_Canyon_of_yellowstone.jpg");
-    background-color: darkolivegreen;
+    background-color: #ccf2ff;
     box-shadow: inset 0 0 0 1000px rgba(246, 249, 225, 0.689);
     background-size: cover;
     padding: 0;
@@ -58,21 +58,27 @@ body{
 
 img{
     border-style: ridge;
-    border-color: blanchedalmond;
+    border-color: #4ea5c2;
     border-radius: 15px;
-    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.555);
     width: 70%;
     
 }
 
 #imgleft{
     border-style: ridge;
-    border-color: olivedrab;
+    border-color: #4ea5c2;
     float: left;
     margin: 0px 15px 15px 0px;
     max-width: 50%;
     box-shadow: inset 0 0 0 1000px rgba(246, 249, 225, 0.689);
     
+}
+
+#profile{
+    border-style: ridge;
+    border-color: #4ea5c2;
+    border-radius: 50%;
 }
 
 #attrLeft{
@@ -83,14 +89,14 @@ img{
 
 video{
     border-style: ridge;
-    border-color: blanchedalmond;
+    border-color: #4ea5c2;
     border-radius: 15px;
     box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
     width: 80%;
 }
 
 .attributions{
-    font-size: 10px;
+    font-size: 14px;
 }
 
 #temp{
@@ -98,11 +104,11 @@ video{
 }
 
 figcaption>a{
-    color: rgb(99, 11, 181);
+    color: #1d728f;
 }
 
 figcaption>a:hover{
-    color: rgb(12, 134, 122);
+    color: #00455c;
 }
 
 
@@ -111,20 +117,21 @@ figcaption>a:hover{
 
 .imperial {
     font-family: "Imperial Script", 'Times New Roman', Times, cursive;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
-    font-size: 42px;
+    font-size: 100px;
     text-decoration: underline;
     text-decoration-thickness: 1px;
-    color: rgb(6, 26, 78);
+    color: #00455c;
+    
   }
 
 .ibm{
     font-family: "IBM Plex Serif", serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 14px;
-    color: rgb(1, 24, 5);
+    font-size: 20px;
+    color: #03212b;
     text-align: center;
   }
 
@@ -137,3 +144,27 @@ figcaption>a:hover{
     padding-left: 50%;
 }
   
+/* Footer Styling*/
+
+footer{
+    background-color: #00455c;
+    padding: 3px 3px;
+    text-align: center;
+    color: #93dcf5;
+}
+#footerStyle ul{
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+#footerStyle a{
+    text-decoration: line;
+    color: #93dcf5;
+    
+}
+#footerStyle a:hover{
+    color: #4ea5c2
+}
+#footerStyle a:active{
+    color: #ccf2ff;
+}
