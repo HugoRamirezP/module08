@@ -79,6 +79,7 @@ img{
     border-style: ridge;
     border-color: #4ea5c2;
     border-radius: 50%;
+    max-width: 25%;
 }
 
 #attrLeft{
@@ -97,10 +98,6 @@ video{
 
 .attributions{
     font-size: 14px;
-}
-
-#temp{
-    padding-bottom: 100vh;
 }
 
 figcaption>a{
@@ -158,7 +155,7 @@ footer{
 }
 
 #footerStyle a{
-    text-decoration: line;
+    text-decoration: underline;
     color: #93dcf5;
     
 }
